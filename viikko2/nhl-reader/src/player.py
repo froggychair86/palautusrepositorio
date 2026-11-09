@@ -7,10 +7,10 @@ class Player:
         self.team = dict['team']
         self.games = dict['games']
         self.id = dict['id']
-    
+
     def __str__(self):
         return self.name
 
     def finnish_players(self):
-        if player.nationality == 'FIN':
-            print(f"{player.name} team {player.team} goals {player.goals} assists {player.assists}")
+        if self.nationality == 'FIN':
+            print(f"{self.name} team {self.team} goals {self.goals} assists {self.assists}")
