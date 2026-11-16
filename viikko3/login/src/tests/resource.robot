@@ -8,6 +8,7 @@ ${DELAY}         500ms
 ${HOME_URL}      http://${SERVER}
 ${LOGIN_URL}     http://${SERVER}/login
 ${REGISTER_URL}  http://${SERVER}/register
+${WELCOME_URL}   http://${SERVER}/welcome
 ${BROWSER}       chromium
 ${HEADLESS}      false
 

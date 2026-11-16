@@ -17,6 +17,11 @@ Login With Incorrect Password
     Click  button >> text=Login
     Login Should Fail With Message  Invalid username or password
 
+Login With Nonexistent Username
+    Set Password  password
+    Click  button >> text=Login
+    Login Should Fail With Message  Username and password are required
+
 *** Keywords ***
 Login Should Succeed
     Main Page Should Be Open
